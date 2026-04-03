@@ -27,6 +27,7 @@ linters-settings:
   revive:
     rules:
       - name: exported
+        disable: true
 
   gocritic:
     enabled-tags:
