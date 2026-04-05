@@ -24,7 +24,7 @@ dev:
 lint:
 	golangci-lint run ./...
 
-DB_URL=postgres://postgres:password@localhost:5432/tv_accounts_managment?sslmode=disable
+DB_URL=postgres://postgres:password@localhost:5432/tv_accounts_management?sslmode=disable
 
 migrate-up:
 	migrate -path db/migrations -database "$(DB_URL)" up
